@@ -2,7 +2,7 @@
 ### Powered by Databricks, Delta Lake, PySpark, SQL, and GitHub
 
 ## Project Overview
-This project implements a scalable Medallion Architecture on the Databricks Lakehouse Platform (Community Edition). It simulates a retail analytics scenario to process and integrate ERP and CRM data , transforming raw, siloed datasets. The pipeline is fully automated using Databricks Jobs, ensuring daily delivery of curated data for stakeholders.
+This project implements a scalable Medallion Architecture on the Databricks Lakehouse Platform (Community Edition). It simulates a retail analytics scenario to process and integrate ERP and CRM data, transforming raw, siloed datasets. The pipeline is fully automated using Databricks Jobs, ensuring daily delivery of curated data for stakeholders.
 
 ## Technical Architecture
 The project follows the industry-standard Medallion pattern to ensure data quality and lineage:
