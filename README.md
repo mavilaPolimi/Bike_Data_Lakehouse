@@ -44,7 +44,7 @@ The project follows the industry-standard Medallion pattern to ensure data quali
 ## Pipeline Orchestration (Databricks Jobs)
 The entire pipeline is automated using **Databricks Workflows** with the following task dependency chain:
 
-`Bronze Ingestion` ➡️ `Silver Orchestration` ➡️ `Gold Orchestration`
+`Bronze Ingestion` -> `Silver Orchestration` -> `Gold Orchestration`
 
 - **Automation:** Configured with a CRON trigger to run **Daily at 8:00 AM**.
 - **Reliability:** Continually reviewed job logs and execution runs to ensure pipeline correctness and robustness.
